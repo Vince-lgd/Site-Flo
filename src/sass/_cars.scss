@@ -1,0 +1,24 @@
+.logo {
+  display: flex;
+  img {
+    height: 5rem;
+    width: 10rem;
+  }
+  &__nav {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1.35rem;
+    gap: 20px;
+  }
+}
+.title {
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  font-size: 2rem;
+  &__map {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2rem;
+  }
+}

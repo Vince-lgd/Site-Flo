@@ -1,18 +1,21 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.scss";
-// Méthode 1 des images : on importe chaque image
-import dino from "./assets/dinosaur.png";
+import Contact from "./components/Contact";
+import Home from "./components/Home";
+import Portefolio from "./components/Portefolio";
+import Cars from "./components/Cars";
+import Hotels from "./components/Hotels";
 
 function App() {
   return (
-    <div className="app">
-      <p className="app__text">
-        Ce template est bien configuré pour vos applications front-end avec
-        Vite, Sass et Vercel
-      </p>
-      {/* Méthode 1 : on peut donc directement utiliser son nom */}
-      <img width={150} height={150} src={dino} alt="" />
-      {/* Méthode 2 : après création du dossier "public" à la racine, on peut utiliser le chemin relatif */}
-      <img width={150} height={150} src="./assets/trex.png" alt="" />
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/portefolio" element={<Portefolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/hotels" element={<Hotels />} />
+        <Route path="/automobile" element={<Cars />} />
+      </Routes>
     </div>
   );
 }

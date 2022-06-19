@@ -1,0 +1,51 @@
+.contact {
+  display: flex;
+  margin-left: 30%;
+  margin-top: 2rem;
+  flex-direction: column;
+
+  img {
+    height: 5rem;
+    width: 10rem;
+  }
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    a {
+      text-decoration: none;
+      color: black;
+      &:hover {
+        color: rgb(206, 188, 165);
+      }
+    }
+    ul {
+      list-style: none;
+      &:hover {
+        content: none;
+      }
+    }
+
+    &__image {
+      display: flex;
+      text-align: left;
+
+      img {
+        display: flex;
+        height: 25rem;
+        width: 25vw;
+      }
+      &__pres {
+        padding: 5rem;
+        display: flex;
+        flex-direction: column;
+        &__link {
+          display: flex;
+          flex-direction: column;
+          margin-left: 24%;
+          margin-top: 2%;
+        }
+      }
+    }
+  }
+}
