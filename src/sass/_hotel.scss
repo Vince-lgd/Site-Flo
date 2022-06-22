@@ -7,3 +7,12 @@
     height: 25rem;
   }
 }
+
+@media all and (max-width: 1200px) {
+  .restoPicture {
+    img {
+      height: 20rem;
+      margin-right: 17rem;
+    }
+  }
+}

@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="contact">
         <img src="logo.jpg" alt="logo" />
       </div>
-      <div className="contact__nav">
+      <div className="nav">
         <Link to="/">ACCUEIL</Link>
         <ul>
           <p> PORTEFOLIO</p>
@@ -19,10 +19,10 @@ const Contact = () => {
           </Link>
         </ul>
         <Link to="/contact">CONTACT</Link>
-        <div className="contact__nav__image">
+        <div className="nav__image">
           <img src="imgFlo.png" alt="flo" />
 
-          <div className="contact__nav__image__pres">
+          <div className="nav__image__pres">
             <h1>Florian Soria</h1>
             <p>Photographe </p>
             <p>Automobile / Mode / Corporate / Voyage</p>
@@ -35,10 +35,9 @@ const Contact = () => {
             travers la création de contenu, photographique et/ou vidéographique.
           </div>
         </div>
-        <div className="contact__nav__image__pres__link">
+        <div className="nav__image__pres__link">
           <h1>Contact</h1>
-          <h2>Mail</h2>
-          <h3>floriansoria.studio@gmail.com</h3>
+          <a href="mailto:floriansoria.studio@gmail.com">Mail</a>
           <a href="https://www.instagram.com/floriansoria_studio/?hl=fr">
             Instagram
           </a>
