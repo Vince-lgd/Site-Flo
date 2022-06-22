@@ -16,9 +16,101 @@
   margin-top: 3rem;
   margin-left: 1rem;
   font-size: 2rem;
-  &__map {
+  &__mapCars {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 60% 30%;
     gap: 2rem;
+  }
+}
+@media all and (max-width: 970px) {
+  .logo {
+    align-items: center;
+  }
+  .title {
+    display: flex;
+    font-size: 1.5rem;
+    &__mapCars {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+}
+@media all and (max-width: 630px) {
+  .logo {
+    align-items: center;
+  }
+  .title {
+    display: flex;
+    font-size: 1.5rem;
+    &__mapCars {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      img {
+        height: 30rem;
+        width: 30rem;
+        object-fit: cover;
+      }
+    }
+  }
+}
+@media all and (max-width: 500px) {
+  .logo {
+    align-items: center;
+  }
+  .title {
+    display: flex;
+    font-size: 1.5rem;
+    &__mapCars {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      img {
+        width: 20rem;
+        object-fit: cover;
+      }
+    }
+  }
+}
+@media all and (max-width: 340px) {
+  .logo {
+    align-items: center;
+  }
+  .title {
+    display: flex;
+    font-size: 1.5rem;
+    &__mapCars {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      img {
+        width: 10rem;
+        object-fit: cover;
+      }
+    }
+  }
+}
+@media all and (max-width: 500px) {
+  .logo {
+    align-items: center;
+  }
+  .title {
+    display: flex;
+    font-size: 1.5rem;
+    &__mapCars {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      img {
+        width: 20rem;
+        object-fit: cover;
+      }
+    }
   }
 }
