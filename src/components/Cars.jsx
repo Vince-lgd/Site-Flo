@@ -25,7 +25,7 @@ const Cars = () => {
       <div className="title">
         <h1>Automobiles</h1>
       </div>
-      <div className="title__map">
+      <div className="title__mapCars">
         {carsPictures &&
           carsPictures.map((car, index) => <Car key={index} {...car} />)}
       </div>
